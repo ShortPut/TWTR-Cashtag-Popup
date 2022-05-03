@@ -1,2 +1,3 @@
-# Twitter-Cashtag-Popup
-Displays a stock chart for when you hover above a Twitter cashtag.
+# Twitter Cashtag Popup
+
+Extension for Chromium based browsers. Displays stock chart from TradingView when cashtag is hovered over. 
