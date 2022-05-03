@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Cashtag Chart Popup",
+    "version": "1.0",
+    "description": "Displays a stock chart for when you hover above a Twitter cashtag. Click outside of popup to close.",
+    "icons": {
+        "48": "icons/cashtag-popup-48.png",
+        "96": "icons/cashtag-popup-96.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "tv.js",
+                "cashtag.js"
+            ]
+        }
+    ]
+}
